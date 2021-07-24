@@ -48,8 +48,8 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: -25px;
-  left: 370px;
+  top: -23px;
+  right: 0;
   background-image: url(../SVG/form-x.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -80,7 +80,7 @@
   width: 100%;
   border: none;
   outline: none;
-  padding: 19px 120px 19px 19px;
+  padding: 19px 90px 19px 19px;
   margin-top: 12px;
 
   background-color: #f3f7f6;
@@ -573,7 +573,7 @@ h2 {
 }
 
 .button {
-  width: 49px;
+  width: 50px;
   height: 45px;
   border: none;
 
@@ -1020,6 +1020,32 @@ h2 {
 
 @media (max-width: 640px) and (orientation: portrait) {
 
+  .popup {
+    max-width: 90%;
+    height: 90%;
+  }
+
+  .popup-content {
+    padding: 15px 20px 25px;
+    font-size: 13px;
+  }
+
+  .subscribe-form {
+    margin-top: 25px;
+  }
+
+  .offer-form {
+    margin-top: 25px;
+  }
+
+  .offer-field {
+    min-height: 50px;
+  }
+
+  .popup-btn {
+    margin-top: 11px;
+  }
+
   .header {
     height: 640px;
     background-image: url(../Images/banner-mobile.jpg);
@@ -1081,6 +1107,11 @@ h2 {
   .search-form {
     width: 100%;
   }
+
+  .search {
+    width: 82%;
+  }
+
   .form-button {
     width: 100%;
   }
@@ -1102,16 +1133,43 @@ h2 {
     padding-bottom: 40px;
   }
   .product-img {
-    width: 290px;
+    width: 286px;
   }
 
   .footer {
-    width: 95%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
 }
 @media (max-width: 640px) and (orientation: landscape) {
+
+  .popup {
+    max-width: 90%;
+    height: 80%;
+  }
+
+  .popup-content {
+    padding: 5px 20px 10px;
+    font-size: 13px;
+  }
+
+  .subscribe-form {
+    margin-top: 25px;
+  }
+
+  .offer-form {
+    margin-top: 25px;
+  }
+
+  .offer-field {
+    min-height: 60px;
+  }
+
+  .popup-btn {
+    margin-top: 11px;
+  }
+
 
   .header {
     height: 640px;
@@ -1178,6 +1236,11 @@ h2 {
   .search-form {
     width: 100%;
   }
+
+  .search {
+    width: 88%;
+  }
+
   .form-button {
     width: 100%;
   }
@@ -1199,11 +1262,15 @@ h2 {
     padding-bottom: 40px;
   }
   .product-img {
-    width: 290px;
+    width: 282px;
+  }
+
+  .card-info {
+    width: 70%;
   }
 
   .footer {
-    width: 95%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
